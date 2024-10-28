@@ -8,7 +8,7 @@ This Quarto extension is a personalized version of [malcolmbarrett's](https://gi
 
 - [Alison Hill's](https://www.apreshill.com/) adaptation of [Yihui Xie's](https://github.com/yihui) [xaringan](https://github.com/yihui/xaringan) theme
 - [Bea Milz's](https://beamilz.com/) [R-Ladies](https://github.com/beatrizmilz/quarto-rladies-theme) Quarto theme
-- [Emil Hvitfeldt's](https://www.emilhvitfeldt.com/) [nes theme](https://github.com/EmilHvitfeldt/quarto-nes-theme).=
+- [Emil Hvitfeldt's](https://www.emilhvitfeldt.com/) [nes theme](https://github.com/EmilHvitfeldt/quarto-nes-theme).
 
 ## Some style notes
 
