@@ -8,7 +8,6 @@ date: last-modified
 date-format: "MMMM D, YYYY"
 format: kakashi-revealjs
 bibliography: references.bib
-output-dir: docs
 ---
 
 ```{r setup, include=FALSE}
@@ -184,8 +183,10 @@ Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](http
 
 You can use the function `pagedown::chrome_print()` to print the HTML version into a PDF!
 
-```{r}
+```r
 pagedown::chrome_print("template.html")
 ```
+
+Make sure the `html` file exists before running `chrome_print()`, otherwise it will throw an error.
 
 ## References
