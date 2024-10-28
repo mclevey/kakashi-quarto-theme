@@ -1,5 +1,5 @@
 title: Kakashi Reveal.js Quarto Presentation
-author: Malcolm Barrett
+author: John McLevey
 version: 0.0.1
 contributes:
   formats:
@@ -18,11 +18,11 @@ contributes:
           fig.align: "center"
           fig.show: "hold"
     revealjs:
-      theme: kakashi.scss
+      theme: kakashi-forked.scss
       slide-number: c/t
       show-slide-number: all
       title-slide-attributes:
-        data-background-color: "#23373B"
+        data-background-color: "#2E3440"
         data-color: "#EDEEF"
       preview-links: true
       code-overflow: wrap
