@@ -1,14 +1,18 @@
 ---
-title: "Quarto Kakashi Theme"
-author: "Malcolm Barrett"
+title: "John McLevey's Kakashi Theme"
+subtitle: "Forked from Malcolm Barrett"
+author: "John McLevey"
 format: kakashi-revealjs
 ---
 
 ```{r setup, include=FALSE}
 options(
-  tibble.max_extra_cols = 6, 
-  tibble.width = 60
+    tibble.max_extra_cols = 6,
+    tibble.width = 60
 )
+
+# install.packages("gt", repos = "https://cran.rstudio.com/", dependencies = TRUE) # , quiet = TRUE
+# install.packages("pagedown", repos = "https://cran.rstudio.com/", dependencies = TRUE)
 ```
 
 ## Quarto
@@ -172,6 +176,6 @@ Read about how to create a diagram in this [post by Mine Çetinkaya-Rundel](http
 
 You can use the function `pagedown::chrome_print()` to print the HTML version into a PDF!
 
-```r
-pagedown::chrome_print("path-to-file.html")
+```{r}
+pagedown::chrome_print("template.html")
 ```
